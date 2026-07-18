@@ -1,94 +1,192 @@
-# Crowd Level Classification Based on Wi-Fi RSSI
+# 📶 Crowd Level Classification Using Wi-Fi RSSI
 
-## Overview
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange?logo=scikitlearn)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Crowd Level Classification Based on Wi-Fi RSSI is a Machine Learning project that estimates crowd density using Wi-Fi signal strength (RSSI) data. The system collects RSSI values, processes the data, and classifies crowd levels into Low, Medium, and High categories.
+---
 
-The project demonstrates how wireless signal information can be used for smart monitoring applications in public spaces, educational institutions, and event venues.
+## 📌 Overview
 
-## Features
+Crowd Level Classification Using Wi-Fi RSSI is a Machine Learning project that estimates indoor crowd density using Wi-Fi Received Signal Strength Indicator (RSSI) values. The system collects RSSI readings, preprocesses the data, and classifies crowd levels into **Low**, **Medium**, and **High** categories using a Random Forest classifier.
 
-* Real-time Wi-Fi RSSI data collection
-* Data preprocessing and feature extraction
-* Crowd level prediction using Machine Learning
-* Live monitoring dashboard
-* Classification into Low, Medium, and High crowd levels
-* Performance evaluation and analysis
+This project demonstrates a privacy-friendly alternative to camera-based crowd monitoring and showcases the practical application of Machine Learning, data processing, and web technologies for real-time crowd monitoring.
 
-## Technologies Used
+---
 
-* Python
-* NumPy
-* Pandas
-* Scikit-learn
-* HTML
-* CSS
-* JavaScript
+## ✨ Features
 
-## Project Structure
+- Real-time Wi-Fi RSSI data collection
+- Data preprocessing and feature engineering
+- Machine Learning-based crowd prediction
+- Random Forest classification model
+- Live prediction system
+- Interactive web dashboard
+- Low, Medium, and High crowd classification
 
-```
-├── crowd_model.pkl              # Trained machine learning model
-├── crowd_model_trainer.py       # Model training script
-├── data_collector.py            # RSSI data collection script
-├── live_predictor.py            # Real-time prediction system
-├── high_crowd.csv              # High crowd dataset
-├── medium_crowd.csv            # Medium crowd dataset
-├── low_crowd.csv               # Low crowd dataset
-├── raw_rssi_data.csv           # Collected RSSI data
-├── level.txt                   # Live prediction output
-├── index.html                  # Dashboard interface
+---
+
+## 🛠 Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Python
+
+### Machine Learning
+- Scikit-learn
+- NumPy
+- Pandas
+
+### Tools
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+Crowd-Level-Classification/
+
+├── crowd_model.pkl
+├── crowd_model_trainer.py
+├── data_collector.py
+├── live_predictor.py
+├── high_crowd.csv
+├── medium_crowd.csv
+├── low_crowd.csv
+├── raw_rssi_data.csv
+├── level.txt
+├── index.html
 └── README.md
 ```
 
-## Workflow
+---
 
-1. Collect Wi-Fi RSSI data.
-2. Clean and preprocess the collected data.
-3. Extract useful features from RSSI readings.
-4. Train a Random Forest classifier.
-5. Evaluate model performance.
-6. Generate live crowd predictions.
-7. Display results through the dashboard.
+## 🔄 Workflow
 
-## Machine Learning Pipeline
+```text
+Wi-Fi RSSI Data Collection
+            │
+            ▼
+     Data Preprocessing
+            │
+            ▼
+    Feature Engineering
+            │
+            ▼
+ Random Forest Model Training
+            │
+            ▼
+      Model Evaluation
+            │
+            ▼
+    Live Crowd Prediction
+            │
+            ▼
+ Dashboard Visualization
+```
 
-* Data Collection
-* Data Cleaning and Preprocessing
-* Feature Engineering
-* Model Training
-* Evaluation Pipeline
-* Live Prediction
+---
 
-## Results
+## 🧠 Machine Learning Pipeline
 
-* Crowd Classification Accuracy: 92%
-* Successfully classified crowd density into three categories:
+- RSSI Data Collection
+- Data Cleaning
+- Feature Engineering
+- Random Forest Model Training
+- Model Evaluation
+- Live Prediction
+- Dashboard Visualization
 
-  * Low Crowd
-  * Medium Crowd
-  * High Crowd
+---
 
-## Applications
+## 📊 Results
 
-* Smart Campus Monitoring
-* Public Event Management
-* Shopping Mall Analytics
-* Crowd Safety Management
-* Smart City Infrastructure
+- **Model Accuracy:** **92%**
+- Successfully classifies indoor crowd density into:
+  - 🟢 Low Crowd
+  - 🟡 Medium Crowd
+  - 🔴 High Crowd
+- Provides live crowd prediction through an interactive web dashboard.
 
-## Future Improvements
+---
 
-* Integration with IoT devices
-* Cloud deployment
-* Mobile application support
-* Advanced machine learning models
-* Real-time analytics dashboard
+## 📂 Dataset
 
-## Author
+The dataset consists of Wi-Fi RSSI signal readings collected under three different crowd conditions.
+
+- Low Crowd
+- Medium Crowd
+- High Crowd
+
+The collected RSSI values were cleaned, processed, and used to train the Machine Learning model for accurate crowd classification.
+
+---
+
+## 🎯 Applications
+
+- Smart Campus Monitoring
+- Public Event Management
+- Shopping Mall Analytics
+- Smart Building Monitoring
+- Crowd Safety Management
+- Smart City Infrastructure
+
+---
+
+## 🚀 Future Improvements
+
+- IoT device integration
+- Cloud deployment
+- Mobile application support
+- Advanced Machine Learning models
+- Real-time analytics dashboard
+- Multi-location crowd monitoring
+
+---
+
+## 👨‍💻 My Contribution
+
+This project was completed as part of a **three-member college mini project**.
+
+I led the technical implementation and completed the following:
+
+- Designed the complete project architecture.
+- Collected and preprocessed Wi-Fi RSSI data.
+- Developed and trained the Machine Learning model.
+- Built the interactive web dashboard using HTML, CSS, and JavaScript.
+- Integrated the prediction system with the user interface.
+- Performed testing, debugging, and model evaluation.
+- Prepared the project documentation and managed the GitHub repository.
+
+---
+
+## 👨‍🎓 Author
 
 **Tharshan R**
 
-B.Tech Artificial Intelligence and Data Science
+B.Tech (Honours) – Artificial Intelligence & Data Science
 
-Vel Tech Engineering College
+Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College
+
+📧 **Email:** tharshanr7878@gmail.com
+
+🔗 **LinkedIn:**(https://www.linkedin.com/in/tharshanr81/)
+
+💻 **GitHub:** https://github.com/tharshanr81
+
+🌐 **Portfolio:** (https://tharshanr81.github.io/portfolio/)
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
