@@ -179,11 +179,11 @@ Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala Engineering College
 
 📧 **Email:** tharshanr7878@gmail.com
 
-🔗 **LinkedIn:**(https://www.linkedin.com/in/tharshanr81/)
+🔗 **LinkedIn:** https://www.linkedin.com/in/tharshanr81/
 
 💻 **GitHub:** https://github.com/tharshanr81
 
-🌐 **Portfolio:** (https://tharshanr81.github.io/portfolio/)
+🌐 **Portfolio:** https://tharshanr81.github.io/portfolio/
 
 ---
 
